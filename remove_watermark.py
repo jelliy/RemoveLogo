@@ -72,8 +72,8 @@ def levelsDeal(img, img2):
 
 
 if __name__ == '__main__':
-    input_dir = r'D:\BaiduNetdiskDownload\2020王道数据\in'
-    output_dir = r'D:\BaiduNetdiskDownload\2020王道数据\out'
+    input_dir = r'in'
+    output_dir = r'out'
 
     watermark_path = r'pictures/0.png'
     img2 = cv2.imread(watermark_path, cv2.IMREAD_GRAYSCALE)
