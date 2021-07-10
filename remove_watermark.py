@@ -75,6 +75,8 @@ if __name__ == '__main__':
     input_dir = r'in'
     output_dir = r'out'
 
+    
+    
     watermark_path = r'pictures/0.png'
     img2 = cv2.imread(watermark_path, cv2.IMREAD_GRAYSCALE)
     visit_dir_files(input_dir, output_dir, input_dir, img2)
